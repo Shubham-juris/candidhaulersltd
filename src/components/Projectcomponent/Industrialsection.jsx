@@ -34,7 +34,7 @@ const Industrialsection = () => {
   return (
     <>
           <section className="py-12 px-4 md:px-8 lg:px-16 bg-white">
-      <div className="grid md:grid-cols-2 gap-10">
+      <div className="grid max-w-7xl mx-auto j md:grid-cols-2 gap-10">
         {products.map((product, index) => (
           <div key={index} className="flex flex-col space-y-4">
             <img
