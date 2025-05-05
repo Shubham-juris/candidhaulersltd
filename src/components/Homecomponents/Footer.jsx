@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const Footer = () => {
@@ -9,8 +10,15 @@ const Footer = () => {
             Masters in industrial manufacturing with 25 years of experience and
             10+ awards!
           </p>
-          <p className="text-sm leading-relaxed"> Address :- Calgary,Alberta,Canada</p>
-          <p>Email: info@candidhaulers.com</p>
+          <p className="text-sm leading-relaxed">
+            Address: Calgary, Alberta, Canada
+          </p>
+          <p className="text-sm leading-relaxed">
+            Email:{" "}
+            <a href="mailto:info@candidhaulers.com" className="hover:underline">
+              info@candidhaulers.com
+            </a>
+          </p>
         </div>
 
         <div>
@@ -20,12 +28,6 @@ const Footer = () => {
             <li>Gear Couplings</li>
             <li>Conveyor Chains</li>
             <li>Marine Bearings</li>
-            <li>Saving investments</li>
-            <li>Gear Drives</li>
-            <li>Industrial Shafts</li>
-            <li>Mechanical Drives</li>
-            <li>Conveyor Belts</li>
-            <li>Helical Gears</li>
           </ul>
         </div>
 
@@ -36,19 +38,32 @@ const Footer = () => {
             <li>Customer Service</li>
             <li>Media & Entertainment</li>
             <li>Product</li>
-            <li>Marketing</li>
-            <li>Analytics</li>
-            <li>Professional Services</li>
           </ul>
         </div>
 
         <div>
           <h3 className="text-lg font-semibold mb-3">Company</h3>
           <ul className="space-y-1 text-sm">
-            <li>About Us</li>
-            <li>Careeres</li>
-            <li>Legal</li>
-            <li>Contact Us</li>
+            <li>
+              <Link href="/" className="hover:underline">
+                Home
+              </Link>
+            </li>
+            <li>
+              <Link href="/about" className="hover:underline">
+                About Us
+              </Link>
+            </li>
+            <li>
+              <Link href="/product" className="hover:underline">
+                Product
+              </Link>
+            </li>
+            <li>
+              <Link href="/project" className="hover:underline">
+                Project
+              </Link>
+            </li>
           </ul>
         </div>
       </div>

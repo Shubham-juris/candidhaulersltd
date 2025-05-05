@@ -7,7 +7,7 @@ const Navbar = () => {
 
   return (
     <>
-      <nav className="flex items-center justify-between p-6 bg-transparent absolute w-full z-10">
+      <nav className="flex  items-center justify-between p-6 bg-transparent absolute w-full z-10">
         <div className="flex items-center">
           <Link href="/">
             <img

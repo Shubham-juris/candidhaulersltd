@@ -6,7 +6,7 @@ const HeroSection = () => {
       <section
       className="w-full h-[556] bg-cover bg-center flex items-center justify-center text-white relative"
       style={{
-        backgroundImage: "url('/Images/project/projectBgImage.jpg')",
+        backgroundImage: "url('/images/project/projectBgImage.jpg')",
         backgroundAttachment: "fixed",
       }}
     >
