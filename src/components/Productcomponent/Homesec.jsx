@@ -6,7 +6,7 @@ const Homesec = () => {
       <section
       className="w-full h-[556] bg-cover bg-center flex items-center justify-center text-white relative"
       style={{
-        backgroundImage: "url('/Images/product/img.jpg')",
+        backgroundImage: "url('/images/product/img.jpg')",
         backgroundAttachment: "fixed",
         
       }}
