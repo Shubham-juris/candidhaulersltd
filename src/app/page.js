@@ -1,5 +1,9 @@
-import { notFound } from "next/navigation";
+import HomeContainer from "@/containers/Homecontainer/HomeContainer";
 
-export default function Page() {
-  notFound();
+export default function Home() {
+  return (
+    <>
+    <HomeContainer/>
+    </>
+  );
 }
