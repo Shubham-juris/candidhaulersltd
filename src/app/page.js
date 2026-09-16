@@ -1,9 +1,5 @@
-import HomeContainer from "@/containers/Homecontainer/HomeContainer";
+import { notFound } from "next/navigation";
 
 export default function Home() {
-  return (
-    <>
-    <HomeContainer/>
-    </>
-  );
+  notFound();
 }
